@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi;
 using PlatformServices.Data;
 
 namespace PlatformServices
@@ -17,10 +18,11 @@ namespace PlatformServices
             services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMem"));
             services.AddScoped<IPlatformRepo, PlatformRepo>();
 			services.AddControllers();
-            // services.AddSwaggerGen(c =>
-            // {
-            //     c.swaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Platform Services", Version = "v1" });
-            // });
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddSwaggerGen(static c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Platform Services", Version = "v1" });
+            });
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
