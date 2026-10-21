@@ -36,14 +36,5 @@ namespace PlatformServices.Data
             return (_context.SaveChanges() >= 0);
         }
 
-        IEnumerable<Platform> IPlatformRepo.GetAllPlatforms()
-        {
-            throw new NotImplementedException();
-        }
-
-        Platform IPlatformRepo.GetPlatformById(int id)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

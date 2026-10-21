@@ -167,3 +167,13 @@ D:\PlatformServices\obj\Debug\net10.0\refint\PlatformServices.dll
 D:\PlatformServices\obj\Debug\net10.0\PlatformServices.pdb
 D:\PlatformServices\obj\Debug\net10.0\PlatformServices.genruntimeconfig.cache
 D:\PlatformServices\obj\Debug\net10.0\ref\PlatformServices.dll
+D:\PlatformServices\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\PlatformServices\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\PlatformServices\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\appsettings.Development.json
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\appsettings.json
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\PlatformServices.staticwebassets.endpoints.json
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\PlatformServices.deps.json
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\PlatformServices.runtimeconfig.json
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\PlatformServices.dll
+C:\Users\shaeel.khan\AppData\Local\Temp\PlatformServices-verify-5270\PlatformServices.pdb
