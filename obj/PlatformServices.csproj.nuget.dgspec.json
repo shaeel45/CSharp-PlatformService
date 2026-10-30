@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PlatformServices\\PlatformServices.csproj": {}
+    "D:\\Practice Services\\PlatformServices\\PlatformServices.csproj": {}
   },
   "projects": {
-    "D:\\PlatformServices\\PlatformServices.csproj": {
+    "D:\\Practice Services\\PlatformServices\\PlatformServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PlatformServices\\PlatformServices.csproj",
+        "projectUniqueName": "D:\\Practice Services\\PlatformServices\\PlatformServices.csproj",
         "projectName": "PlatformServices",
-        "projectPath": "D:\\PlatformServices\\PlatformServices.csproj",
+        "projectPath": "D:\\Practice Services\\PlatformServices\\PlatformServices.csproj",
         "packagesPath": "C:\\Users\\shaeel.khan\\.nuget\\packages\\",
-        "outputPath": "D:\\PlatformServices\\obj\\",
+        "outputPath": "D:\\Practice Services\\PlatformServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
