@@ -21,7 +21,8 @@ namespace PlatformServices.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<PlatformReadDto>> GetPlatforms()
         {
-            Console.WriteLine("--> Getting Platforms....");
+            // Use ILogger instead of Console.WriteLine
+            var platformItem = _repo.GetAllPlatforms();
 
             var platformItem = _repo.GetAllPlatforms();
 
